@@ -1,10 +1,10 @@
 @font-face {
-  font-family: 'fontello';
-  src: url('../font/fontello.eot?6804604');
-  src: url('../font/fontello.eot?6804604#iefix') format('embedded-opentype'),
-       url('../font/fontello.woff?6804604') format('woff'),
-       url('../font/fontello.ttf?6804604') format('truetype'),
-       url('../font/fontello.svg?6804604#fontello') format('svg');
+  font-family: 'custom-font';
+  src: url('../font/custom-font.eot?6804604');
+  src: url('../font/custom-font.eot?6804604#iefix') format('embedded-opentype'),
+       url('../font/custom-font.woff?6804604') format('woff'),
+       url('../font/custom-font.ttf?6804604') format('truetype'),
+       url('../font/custom-font.svg?6804604#custom-font') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -13,14 +13,14 @@
 /*
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
-    font-family: 'fontello';
-    src: url('../font/fontello.svg?6804604#fontello') format('svg');
+    font-family: 'custom-font';
+    src: url('../font/custom-font.svg?6804604#custom-font') format('svg');
   }
 }
 */
  
  [class^="icon-"]:before, [class*=" icon-"]:before {
-  font-family: "fontello";
+  font-family: "custom-font";
   font-style: normal;
   font-weight: normal;
   speak: none;
