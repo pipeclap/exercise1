@@ -18,6 +18,12 @@ html {
 }
 
 /*1st-buttons*/
+h1{
+  position: relative;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 100px;
+}
 body {
   background: #222 url("http://25.media.tumblr.com/a408ad9af259cf827ed4599d60bcb0a9/tumblr_myebwtELvb1st5lhmo1_1280.jpg") no-repeat fixed center;
   background-size: cover;
@@ -27,7 +33,7 @@ body {
 .social {
   position: absolute;
   width: 100%;
-  top: 30%;
+  top: 50%;
   text-align: center;
   transform: translateY(-50%);
 }
